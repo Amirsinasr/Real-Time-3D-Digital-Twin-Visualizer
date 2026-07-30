@@ -1,0 +1,14 @@
+{
+  "name": "real-time-3d-digital-twin-visualizer",
+  "version": "1.0.0",
+  "description": "This web application renders a 3D model of your hardware in the browser and rotates it in real-time to match the exact physical movements of your ESP32 in the real world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
