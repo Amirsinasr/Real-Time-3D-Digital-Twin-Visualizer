@@ -326,3 +326,13 @@
 .control-btn.secondary:hover {
     background: rgba(255, 255, 255, 0.05);
 }
+
+.canvas-container-3d {
+    flex: 1;
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    border-radius: 8px;
+    min-height: 450px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
