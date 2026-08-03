@@ -5,7 +5,7 @@ A full-stack industrial IoT dashboard designed to visualize hardware telemetry i
 ## 📸 Live Demonstration
 
 <p align="center">
-  <img src="[LINK_TO_YOUR_GIF_HERE.gif]" alt="EdgeTwin Live Demo" width="100%">
+  <img src="https://github.com/Amirsinasr/Real-Time-3D-Digital-Twin-Visualizer/blob/main/Demo%20digital%20twin.gif" alt="EdgeTwin Live Demo" width="100%">
 </p>
 
 > *The demo above showcases the real-time WebSocket data stream actively driving both the 3D WebGL model and the Recharts history graph with zero perceived latency.*
