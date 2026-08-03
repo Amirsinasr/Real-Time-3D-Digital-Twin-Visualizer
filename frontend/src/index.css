@@ -94,3 +94,72 @@
     transform: translateY(-1px);
 }
 
+/* Professional Footer Styling */
+.app-footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(15, 23, 42, 0.9); /* Matches header dark slate */
+    backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08); /* Subtle border line */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    color: #94a3b8; /* Muted professional gray */
+    position: relative;
+    bottom: 0;
+    margin-top: auto; /* Pushes footer to the bottom if flex layout is used on body */
+}
+
+/* Left Side Layout */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-divider {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-copy {
+    font-weight: 500;
+}
+
+/* Status Indicators */
+.footer-status-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: monospace;
+}
+
+.status-indicator {
+    font-weight: 600;
+}
+
+.status-indicator.online {
+    color: #10b981; /* Green for connected */
+}
+
+.status-indicator.active {
+    color: #38bdf8; /* Blue for database active */
+}
+
+/* Right Side Tech Badges */
+.footer-tech {
+    display: flex;
+    gap: 8px;
+}
+
+.tech-badge {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    color: #cbd5e1;
+    font-weight: 500;
+}
